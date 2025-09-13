@@ -909,7 +909,9 @@ body {
         .read-more {
           display: flex;
           align-items: center;
-          color: $orange;
+          span {
+            color: $orange;
+          }
           svg {
             margin-left: 0.75rem;
           }
