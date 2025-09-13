@@ -425,6 +425,8 @@
     &-head {
       height: 2.813rem;
       font-size: 0.875rem;
+      line-height: 120%;
+      padding: 0 1.25rem;
     }
   }
 
@@ -656,5 +658,11 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 0 12px;
   }
 }
